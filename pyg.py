@@ -1,5 +1,7 @@
 # pip install pygments
 # python pyg.py code_file
+# takes in a python code_file and generates an html
+# display-friendly version of the python file. 
 
 from pygments import highlight
 from pygments.lexers import PythonLexer
